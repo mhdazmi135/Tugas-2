@@ -1,0 +1,58 @@
+/* Mengatur tampilan body dan warna latar belakang */
+body {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #b3cde0; /* Biru pastel */
+    margin: 0;
+    text-align: center;
+}
+
+
+/* Styling untuk header */
+header {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #4a90e2; /* Warna biru yang lebih gelap untuk kontras */
+    color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Container utama untuk teks dan gambar */
+.container {
+    max-width: 400px;
+    background-color: #ffffff; /* Warna putih untuk kontras */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Mengatur margin pada judul dan teks */
+h2, p {
+    margin: 10px 0;
+    color: #4a4a4a; /* Warna teks abu-abu gelap */
+}
+
+/* Pengaturan gambar profil */
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px auto;
+    border: 3px solid #b3cde0; /* Warna border agar sesuai dengan tema */
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
